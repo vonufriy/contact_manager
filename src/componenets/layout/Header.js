@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 const Header = (props) => {
     const {branding} = props;
     return (
-        <nav className= "nav navbar navbar-expand-styleMedia navbar-dark bg-danger">
+        <nav className= "nav navbar navbar-expand-lg navbar-dark bg-danger">
             <div className="container">
                 <a href="/" className="navbar-brand">{branding}</a>
                 <div>
